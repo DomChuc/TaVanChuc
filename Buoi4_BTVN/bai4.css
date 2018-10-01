@@ -1,0 +1,45 @@
+p {
+    font-size: 32px;
+}
+#a1 {
+    text-decoration: underline
+}
+#a2{
+    text-decoration: overline
+}
+#a3 {
+    text-decoration: line-through
+}
+#a4 {
+    text-decoration: underline overline line-through;
+}
+#text {
+    background: blue;
+    width: 1600px;
+    color: white;
+    text-align: left;
+    font-size: revert;
+}
+#text p {
+    text-indent: 0.5%;
+    text-overflow: clip;
+    overfow: hidden;
+    white-space: nowrap;
+}
+#kieu {
+    text-shadow: blue 2px 3px 4px;
+    color: violet;
+}
+#kieu1{
+    text-shadow: red 2px -1px 3px, blue -2px 1px 2px;
+    color: white;
+}
+h2{
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: lowercase;
+}
+h4 {
+    text-transform: capitalize;
+}

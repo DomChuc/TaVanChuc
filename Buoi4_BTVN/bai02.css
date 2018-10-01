@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+}
+#abc{
+    color: #f5ff4c;
+}
+.footer{
+    color: violet;
+    font-family: "Times New Roman";
+}
+#menu li{
+    color: aqua;
+    list-style-type: square;
+}
+#menu ul ul>li{
+    color: blue;
+}
