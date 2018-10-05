@@ -1,0 +1,23 @@
+.inline{
+    background-color: #666666;
+    border: 1px solid black;
+    display: inline;
+}
+.block{
+    background-color: brown;
+    display: block;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: table;
+}
+.row{
+    display: table-row;
+
+}
+.col{
+    display: table-cell;
+    background: #666666;
+    border: 1px solid white;
+}
