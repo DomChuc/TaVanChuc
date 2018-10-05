@@ -1,0 +1,36 @@
+.header{
+    background-image: url("http://sohanews.sohacdn.com/thumb_w/660/2017/photo1486969199024-1486969199175-0-32-308-529-crop-1486969281069.jpg");
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    background-repeat: space;
+}
+h1{
+    text-align: center;
+    padding: 15%;
+    color: #333333;
+}
+li {margin-bottom: 12px;}
+div {
+    background-image: url(https://developer.mozilla.org/samples/cssref/background-repeat/starsolid.gif);
+    width: 144px;
+    height: 84px;
+}
+.one {
+    background-repeat: no-repeat;
+}
+.two {
+    background-repeat: repeat;
+}
+.three {
+    background-repeat: repeat-x;
+}
+.four {
+    background-repeat: repeat-y;
+}
+.five {
+    background-image:  url(https://developer.mozilla.org/samples/cssref/background-repeat/starsolid.gif),
+    url(https://developer.cdn.mozilla.net/media/redesign/img/favicon32.png);
+    background-repeat: repeat-x, repeat-y;
+    height: 144px;
+}

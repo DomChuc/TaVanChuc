@@ -1,0 +1,62 @@
+body {
+    font-size: 24px;
+}
+p{
+    background: #e8e8e8;
+    text-align: center;
+    width: auto;
+    height: 20px;
+    float: left;
+}
+#disc {
+    list-style-type: disc;
+}
+#circle {
+    list-style-type: circle;
+}
+#decimal {
+    list-style-type: decimal;
+}
+#lower{
+    list-style-type: lower-roman;
+}
+#upper{
+    list-style-type: upper-roman;
+}
+#none{
+    list-style-type: none;
+}
+.header ul li {
+    background: #e8e8e8;
+    width: 300px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    list-style-position: inside;
+}
+.card li {
+    background: #e8e8e8;
+    width: 300px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#inside {
+    list-style-position: inside;
+}
+#outside {
+    list-style-position: outside;
+}
+.footer li {
+    background: #e8e8e8;
+    width: 300px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#image{
+    list-style: url('https://image.flaticon.com/icons/svg/148/148836.svg') outside;
+}
