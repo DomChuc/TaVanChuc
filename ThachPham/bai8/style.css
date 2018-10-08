@@ -1,0 +1,18 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+#menu {
+    padding: 0 32px;
+    margin: 0;
+    width: 960px;
+    position: relative;
+    background: #334793;
+    color: #fff;
+}
+#menu li {
+    line-height: 2em;
+    margin-right: 30px;
+    list-style-type: none;
+    display: inline;
+}
