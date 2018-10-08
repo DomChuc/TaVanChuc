@@ -1,0 +1,68 @@
+#rotate:hover img {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+#transition img {
+    transition: 1s ease-in-out;
+}
+#transition:hover img {
+    transform: rotate(3turn);
+    -webkit-transform: rotate(3turn);
+    -moz-transform: rotate(3turn);
+}
+#scale1:hover img {
+    transform: scaleY(1.2);
+    -moz-transform: scaleY(1.2);
+    -webkit-transform: scaleY(1.2);
+}
+#transition1 img {
+    transition: 1s ease-in-out;
+}
+#transition1:hover img {
+    transform: scaleX(1.5);
+    -moz-transform: scaleX(1.5);
+    -webkit-transform: scaleX(1.5);
+}
+#skew:hover img {
+    transform: skewY(45deg);
+    -moz-transform: skewY(45deg);
+    -webkit-transform: skewY(45deg);
+}
+#transition2 img {
+    transition: 1s ease-in-out;
+}
+#transition2:hover img {
+    transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform-origin: 0% 55%;
+}
+img {
+    transition: 1s ease-in-out;
+    display: block;
+}
+.rotate3:hover {
+    transform: rotate(5turn);
+    -moz-transform: rotate(5turn);
+    -webkit-transform: rotate(5turn);
+    transform-origin: 300% 300%;
+    -moz-transform-origin: 300% 300%;
+    -webkit-transform-origin: 300% 300%;
+}
+.scale3:hover {
+    transform: scaleX(-1.5);
+    -moz-transform: scaleX(-1.5);
+    -webkit-transform: scaleX(-.5);
+    transform-origin: 150% 150%;
+    -moz-transform-origin: 150% 150%;
+    -webkit-transform-origin: 150% 150%;
+}
+.skew3:hover {
+    transform: skewX(-65deg);
+    -moz-transform: skewX(-65deg);
+    -webkit-transform: skewX(-65deg);
+    transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+}

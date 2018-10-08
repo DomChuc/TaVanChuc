@@ -1,0 +1,43 @@
+
+body{
+    width: 1600px;
+    height: 100%;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: blue !important;
+}
+a:visited {
+    color: purple;
+}
+a:active {
+    color: green;
+}
+
+
+#box {
+    width: 100px;
+    height: 100px;
+    background: #666666;
+}
+#box:hover {
+    background: #5efff3;
+}
+#box:active {
+    background: green;
+}
+#thu-vi {
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: margin-left 2s, background 1s;
+    -moz-transition: margin-left 2s, background 1s;
+    -webkit-transition: margin-left 2s, background 1s;
+}
+#thu-vi:hover {
+    margin-left: 100%;
+  background: green;
+}

@@ -1,0 +1,52 @@
+
+body{
+    font-family: "Times New Roman";
+    color: #f1f1f1;
+    font-size: 15px;
+}
+#menu ul{
+    background: green;
+    width: 250px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+#menu li{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+    padding: 0 1em;
+}
+#menu li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    display: block;
+}
+ li:hover{
+    background: #e8e8e8;
+}
+ li{
+    position: relative;
+}
+ .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;
+}
+#menu li:hover .sub-menu{
+    display: block;
+}
+/*Menu cấp 3*/
+.sub-menu-01{
+    position: absolute;
+    display: none;
+}
+.sub-menu-01 li{
+    display: none;
+}
+.sub-menu li:hover .sub-menu-01 {
+    display: block;
+}

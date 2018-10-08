@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Times New Roman";
+    color: #e8e8e8;
+}
+#menu ul{
+    background: green;
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#menu li{
+    color: #f1f1f1;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -10px;
+    position: relative;
+    font-size: larger;
+}
+#menu a{
+    text-decoration: none;
+    color: #333333;
+    display: block;
+}
+#menu a:hover{
+    background: white;
+    color: #3E474F;
+}
+.sub-menu{
+    position: absolute;
+    display: none;
+}
+.sub-menu li{
+    display: none;
+    margin-left: 0px; !important;
+
+}
+#menu li:hover .sub-menu{
+    display: block;
+}
+/*==Style cho menu cấp 3===*/
+.sub-menu-01{
+    position: absolute;
+    display: none;
+    float: right;
+}
+.sub-menu-01 li{
+    display: none;
+    margin-left: 0px; !important;
+}
+.sub-menu li:hover .sub-menu-01{
+    display: block;
+}
+

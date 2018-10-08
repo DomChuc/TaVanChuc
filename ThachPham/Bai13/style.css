@@ -1,0 +1,13 @@
+
+#thu-vi {
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: margin-left 2s, background 1s;
+    -moz-transition: margin-left 2s, background 1s;
+    -webkit-transition: margin-left 2s, background 1s;
+}
+#thu-vi:hover {
+    margin-left: 100%;
+    background: green;
+}
